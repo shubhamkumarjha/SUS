@@ -1,10 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"  pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Space Utilization Space</title>
+<title>Space Utilization System</title>
 </head>
 <body >
 <style>
@@ -38,7 +37,7 @@ text-align: center;
 clear: left;
 padding: 1em;
 }
-/* img{
+/* article{
 margin-top:0;
 margin-left: 200px;
 overflow: hidden;
@@ -46,14 +45,11 @@ border-left: 2px solid gray;
 padding: 1em;
 } */
 </style>
-	<div class="container"
-		style="background-image: url(D:\git\SUS\SUS\Images/home.jpg); height: 500px; width: 1000px;">
-		<header><h3>Space Utilization Space</h3></header>
+	<div class="container">
+		<header><h3>Space Utilization System</h3></header>
 		<nav>
 		<ul>
-			<li><a href="#">Enter the Details</a></li>
-			<br>
-			<br>
+			<li><a href="#">Enter the Details</a></li><br><br>
 			<li><a href="#">Check Vacant Space</a></li>
 			<br>
 			<br>
