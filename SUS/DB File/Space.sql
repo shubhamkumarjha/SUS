@@ -1,0 +1,17 @@
+use demo;
+create table Employee(empId int not null AUTO_INCREMENT, empName varchar(50) not null, empDept varchar(10), isActive varchar(10), primary key(empId));
+create table cubicle(cubicleId int NOT NULL AUTO_INCREMENT,cubicleNo varchar(10), floor varchar(10), isVacant varchar(10), allocatedTo int, FOREIGN KEY(allocatedTo) REFERENCES Employee(empId));
+insert into Employee(empName,empDept,isActive) values("Abhi","platform","yes");
+insert into Employee(empName,empDept,isActive) values("Akash","platform","yes");
+insert into Employee(empName,empDept,isActive) values("Ben","platform","yes");
+insert into Employee(empName,empDept,isActive) values("Charan","platform","yes");
+insert into Employee(empName,empDept,isActive) values("David","c360","yes");
+insert into Employee(empName,empDept,isActive) values("Goutham","c360","yes");
+insert into Employee(empName,empDept,isActive) values("Harsh","c360","yes");
+insert into Employee(empName,empDept,isActive) values("Karan","c360","yes");
+insert into Employee(empName,empDept,isActive) values("Lucky","target1","yes");
+insert into Employee(empName,empDept,isActive) values("Manu","target1","yes");
+insert into Employee(empName,empDept,isActive) values("Yuvi","target1","yes");
+select * from employee;
+select * from cubicle;
+drop table employee;

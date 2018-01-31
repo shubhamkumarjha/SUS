@@ -37,29 +37,50 @@ text-align: center;
 clear: left;
 padding: 1em;
 }
-/* article{
+container inner{
 margin-top:0;
 margin-left: 200px;
 overflow: hidden;
 border-left: 2px solid gray;
 padding: 1em;
-} */
+padding-left: 180px;
+} 
 </style>
-	<div class="container">
-		<header><h3>Space Utilization System</h3></header>
-		<nav>
-		<ul>
-			<li><a href="#">Enter the Details</a></li><br><br>
-			<li><a href="#">Check Vacant Space</a></li>
-			<br>
-			<br>
-			<li><a href="#">Allocate Space</a></li>
-			<br>
-			<br>
-			<li><a href="#">Meeting Room</a></li>
-		</ul>
-		</nav>
-		<footer> Copyright &copy SUS 2018 </footer>
-	</div>
+<script type="text/javascript">
+function popupDiv(data) {
+	  switch(data){
+	 case 1:
+		 
+		 break;
+	 case 2:
+		 alert(222222222);
+		 break;
+	 case 3:
+		 alert(33333333);
+		 break;
+	 case 4:
+		 alert(44444444);
+		 break;
+	 } 
+	
+}
+</script>
+<div class="container">
+<header>
+	<h3>Space Utilization System</h3>
+</header>
+<nav>
+	<ul>
+		<li><a href="#EnterTheDetails" onclick="popupDiv(1)">Enter the Details</a></li><br><br>
+		<li><a href="#checkVacantSpace" onclick="popupDiv(2)">Check Vacant Space</a></li><br><br>
+		<li><a href="#allocateSpace" onclick="popupDiv(3)">Allocate Space</a></li><br><br>
+		<li><a href="#meetingRoom" onclick="popupDiv(4)">Meeting Room</a></li>
+	</ul>
+</nav>
+<div id="inner">
+
+</div>
+<footer> Copyright &copy SUS 2018 </footer>
+</div>
 </body>
 </html>
